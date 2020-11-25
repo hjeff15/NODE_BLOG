@@ -1,0 +1,27 @@
+{
+  "name": "node_blog",
+  "version": "1.0.0",
+  "description": "Test blog made with node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hugo Jeffreys",
+  "license": "ISC",
+  "dependencies": {
+    "@okta/oidc-middleware": "^1.0.2",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "epilogue": "^0.7.1",
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "finale-rest": "^1.1.1",
+    "sequelize": "^6.3.5",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
